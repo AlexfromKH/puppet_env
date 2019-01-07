@@ -1,4 +1,4 @@
-class testrepo {
+class puppet_env {
   if environment == 'production' {
     notify { 'default-message':
       message => "This is a production environment",
